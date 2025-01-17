@@ -27,7 +27,7 @@ function atualizarAmigos() {
 
 function sortearAmigo() {
     if(amigos.length === 0) {
-       alert('O array está vazio, o sorteio não pode ser realizado!');
+       alert('Nenhum nome adicionado, o sorteio não pode ser realizado!');
        return;
     }
     
